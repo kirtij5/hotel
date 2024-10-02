@@ -1,0 +1,124 @@
+/* Example CSS for UpdateHotel component */
+.updatehotel {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #07010a57 0%, #0b08d456 100%);
+    color: white;
+  
+    display: flex;
+   
+    height: 120vh;
+}
+
+.updatehotel h2 {
+    text-align: center;
+  font-size: 2.2rem;
+}
+
+.container_update {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom:10px;
+  padding-top: 15px;
+    max-width: 400px;
+    max-height: 1003px;
+    width: 100%;
+    margin-left: 615px;
+    margin-top: 30px;
+  }
+  
+.form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fafafa;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #eaf1f1;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+  }
+  
+  .form-group input::placeholder,
+  .form-group textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #6ACFC7;
+    outline: none;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  .form-group button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #6ACFC7;
+    color: #0C1A1A;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .form-group button:hover {
+    background: #5DB9B4;
+  }
+  
+  
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.success-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.success-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.success-modal h2 {
+  margin: 0;
+  color: green;
+}
